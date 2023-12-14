@@ -3,11 +3,11 @@ import { Navbar, Container } from "react-bootstrap";
 
 interface IHeaderProps {}
 
-const Header: React.FunctionComponent<IHeaderProps> = (props) => {
+const Header: React.FunctionComponent<IHeaderProps> = () => {
   return (
     <Navbar fixed="top" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand>React TypScript Notes App</Navbar.Brand>
+        <Navbar.Brand>Notes App with React_TypeScript</Navbar.Brand>
       </Container>
     </Navbar>
   );
